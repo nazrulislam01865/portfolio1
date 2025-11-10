@@ -30,60 +30,21 @@ const blogData = [
     id: 1,
     image: img1,
     date: "22 Oct, 2020",
-    comments: 246,
-    title: "Designing Engaging User Interfaces for Modern Web Apps",
+    comments: '',
+    title: "Worked as a Software Engineer at Programee ",
     link: "#!",
   },
-  {
-    id: 2,
-    image: img2,
-    date: "22 Oct, 2020",
-    comments: 246,
-    title: "Tips for Effective Dashboard Layouts and Usability",
-    link: "#!",
-  },
-  {
-    id: 3,
-    image: img3,
-    date: "22 Oct, 2020",
-    comments: 246,
-    title: "How to Visualize Data for Better Product Decisions",
-    link: "#!",
-  },
-  {
-    id: 4,
-    image: img4,
-    date: "22 Oct, 2020",
-    comments: 246,
-    title: "Responsive Design: Adapting to All Devices Seamlessly",
-    link: "#!",
-  },
-  {
-    id: 5,
-    image: img2,
-    date: "22 Oct, 2020",
-    comments: 246,
-    title: "Streamlining Workflows with UI/UX Best Practices",
-    link: "#!",
-  },
-  {
-    id: 6,
-    image: img1,
-    date: "22 Oct, 2020",
-    comments: 246,
-    title: "Optimizing Interface Components for Performance",
-    link: "#!",
-  },
+  
 ];
 
 const Blog = () => {
   return (
     <div className="content py-25 px-2 relative" id="blog">
-      <div className="max-w-135 text-center mx-auto pb-17.5">
-        <p className="section-title pb-6">Blog</p>
+      <div className="max-w-170 text-center mx-auto pb-17.5">
+        <p className="section-title pb-6">Expericencs</p>
         <p className="text-xs xs:text-[16px] md:text-lg text-gray-400">
-          Check out my recent blog posts where I share insights on design,
-          development, and the latest industry trends.
+          Here are some of my experiences working as a software engineer and web
+          developer in various companys.
         </p>
       </div>
       <Swiper

@@ -33,15 +33,13 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            I am Professional User Experience Designer
+            I am Software Engineer & Web Developer(Backend)
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services and online stores. My
-              passion is to design digital user experiences.
+              I am a passionate software engineer and a Computer Science student at AIUB. I have strong skills in .Net, data structures, algorithms, and web development. I am dedicated to creating efficient, user-friendly solutions while actively expanding my expertise in backend development and network engineering. I have practical experience developing applications and research prototypes, including work with C#, Java, Python, and IoT systems.
             </p>
             <p className="mt-3">
               I design and develop services for customers specializing creating

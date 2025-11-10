@@ -10,57 +10,40 @@ const projectData = [
   {
     id: 1,
     image: card1,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Web Application(PHP)",
+    title: "GoBus-Web Based Bus E-Ticket Management System",
     description:
-      "I focus on crafting smooth, responsive interfaces that balance aesthetic appeal with practical functionality.",
-    link: "#!",
+      "GoBus is a complete web-based bus ticket booking system designed to make bus travel easier and more organized for passengers, administrators, and transport companies. Users can search for available buses, purchase tickets online, make payments, and manage their bookings comfortably from home, no more waiting in long lines at the counter.",
+    link: "https://github.com/nazrulislam01865/GoBus-Web-Based-Bus-E-Ticket-Management-System",
   },
   {
     id: 2,
     image: card2,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "C# Application",
+    title: "Car Rental Service-UTHAO",
     description:
-      "Designed an intuitive dashboard for product management, emphasizing clarity and user efficiency.",
-    link: "#!",
+      "CarRentalService is a C# application for managing car rentals. It allows users to browse available vehicles, make reservations, and manage bookings. Features include user authentication, rental duration tracking, pricing calculations, and admin control over vehicle inventory and transactions, offering a user-friendly experience.",
+    link: "https://github.com/nazrulislam01865/CarRentalService-UTHAO-",
   },
   {
     id: 3,
     image: card3,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "JAVA Swing Application",
+    title: "Dhaka Route",
     description:
-      "Developed a modern admin panel with a focus on usability and seamless navigation for end users and so on.",
-    link: "#!",
+      "Dhaka Route is a java swing based application that will find the buses available on the user selected Route.A user can sign up and login into the app then they will be able to search for buses . An Admin can change the rate ratio per km and also add new buses and new locations to the system.",
+    link: "https://github.com/nazrulislam01865/DhakaRoute",
   },
   {
     id: 4,
     image: card4,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
+    category: "Open GL C++ Application",
+    title: "FindYourHome 2D based maze game",
     description:
-      "Created a responsive dashboard layout that adapts smoothly across devices and screen sizes and so on.",
-    link: "#!",
+      "FindYourHome is a 2D maze game developed using OpenGL in C++. Players navigate through a maze to find their home while avoiding obstacles. The game features simple controls, scoring based on time taken, and increasing difficulty levels, providing an engaging experience for players.",
+    link: "https://github.com/nazrulislam01865/FindYourHome-2D-based-maze",
   },
-  {
-    id: 5,
-    image: card5,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
-    description:
-      "Implemented interactive charts and widgets to visualize product data effectively for stakeholders.",
-    link: "#!",
-  },
-  {
-    id: 6,
-    image: card6,
-    category: "UI-UX DESIGN",
-    title: "Product Admin Dashboard",
-    description:
-      "Enhanced user experience by streamlining workflows and optimizing interface components and so on.",
-    link: "#!",
-  },
+
 ];
 
 const Portfolio = () => {
@@ -71,9 +54,9 @@ const Portfolio = () => {
     >
       <div className="xl:mb-17.5 mb-5">
         <div className="max-sm:px-2 text-center mx-auto max-w-144.25">
-          <p className="section-title ">Portfolio</p>
+          <p className="section-title ">University Projects</p>
           <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400">
-            Here's a selection of my recent work, showcasing my skills in
+            Here's a selection of my university project, showcasing my skills in
             creating user-centric and visually appealing interfaces.
           </p>
         </div>
@@ -86,12 +69,6 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="text-center">
-        <a
-          href="#!"
-          className="btn btn-primary py-3 px-6 mt-12.5 text-center text-[16px] font-semibold"
-        >
-          More Project
-        </a>
       </div>
     </div>
   );

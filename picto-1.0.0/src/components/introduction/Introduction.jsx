@@ -7,17 +7,17 @@ const informationSummaryData = [
   {
     id: 1,
     title: "Experience",
-    description: "15 Y.",
+    description: "1+ Y.",
   },
   {
     id: 2,
     title: "Projects Completed",
-    description: "250+",
+    description: "10+",
   },
   {
     id: 3,
-    title: "Happy Clients",
-    description: "58",
+    title: "Upcoming Projects",
+    description: "6",
   },
 ];
 
@@ -32,13 +32,13 @@ const Introduction = () => {
           <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
             Hello, I’m
             <span className="text-nowrap shrink-0 inline-block w-full">
-              Brooklyn Gilbert
+              Nazrul Islam
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            I'm a Freelance <span className="bg-highlight">UI/UX Designer</span>{" "}
-            and <span className="bg-highlight"> Developer</span> based in
-            London, England. I strives to build immersive and beautiful web
+            I'm a Software Engineer <span className="bg-highlight">Web Developer(PHP)</span>{" "}
+            and <span className="bg-highlight">Backend Developer</span> based in
+            Dhaka, Banglades. I strives to build immersive and beautiful web
             applications through carefully crafted code and user-centric design.
           </p>
           <p className="text-center lg:text-start">
