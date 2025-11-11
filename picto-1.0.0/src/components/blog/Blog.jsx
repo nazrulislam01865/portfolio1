@@ -1,4 +1,4 @@
-import img1 from "../../assets/images/blog/blog-1.jpg";
+import img1 from "../../assets/images/blog/p.jpeg";
 import img2 from "../../assets/images/blog/blog-2.jpg";
 import img3 from "../../assets/images/blog/blog-3.jpg";
 import img4 from "../../assets/images/blog/blog-4.jpg";
@@ -29,7 +29,7 @@ const blogData = [
   {
     id: 1,
     image: img1,
-    date: "22 Oct, 2020",
+    date: "May, 2024",
     comments: '',
     title: "Worked as a Software Engineer at Programee ",
     link: "#!",

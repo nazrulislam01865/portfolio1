@@ -3,9 +3,9 @@ import Roles from "./Roles";
 const rolesData = [
   {
     id: 1,
-    title: "User Experience (UX)",
+    title: "Web Development(PHP, JavaScript, React)",
     description:
-      "I design intuitive and enjoyable experiences by understanding user needs, conducting research, and creating wireframes and prototypes that enhance usability.",
+      "I design intuitive and user-friendly experiences by understanding user needs and behaviors, ensuring seamless interaction across all devices.",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const rolesData = [
   },
   {
     id: 3,
-    title: "Web Development",
+    title: "Software Development(Backend)",
     description:
       "I build responsive and high-performance web applications using modern technologies, ensuring accessibility, scalability, and maintainability.",
   },
@@ -42,7 +42,7 @@ const Profession = () => {
           </p>
         </div>
         <a
-          href="#!"
+          href="mailto:nazrul01865@gmail.com"
           className="mt-5 md:mt-12.5 btn btn-primary text-white w-fit md:py-3 md:px-6 text-[12px] sm:text-[16px] font-semibold max-md:mx-auto max-md:mb-5"
         >
           Say Hello!

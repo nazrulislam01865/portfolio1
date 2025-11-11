@@ -19,7 +19,7 @@ const WorkSteps = ({ data, style }) => {
           viewBox="0 0 16 16"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="max-sm:p-2 sm:w-15 sm:h-15"
+          className="max-sm:p-2 sm:w-12 sm:h-12"
         >
           <path d={data?.svgPath} fill={`${hover ? "#FFFFFF" : "#A53DFF"}`} />
         </svg>
